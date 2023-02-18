@@ -1,0 +1,82 @@
+
+// class 样式
+.border-line {
+  width: 100%;
+  border: 0.5px solid #eee;
+  border-radius: 100px;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: $uni-text-color-grey;
+}
+
+.text-sm {
+  font-size: $uni-font-size-sm; 
+}
+
+.text-base {
+  font-size: $uni-font-size-base; 
+}
+
+.text-lg {
+  font-size: $uni-font-size-lg; 
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-bewteen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.max-1-line {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.max-2-line {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
